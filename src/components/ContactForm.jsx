@@ -98,7 +98,7 @@ export default function App() {
 
     try {
       // Call backend API (Vite proxy → http://localhost:8080/api/contact)
-      const response = await fetch('https://trivyxa-businesswebsitebackend-production.up.railway.app/api/contact', {
+      const response = await fetch('api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
